@@ -1,0 +1,103 @@
+[data-content="elite"],
+[data-content="enterprise"],
+[data-content="platinum"],
+[data-content="diamond"]
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: Crimson;
+    background-color: LemonChiffon;
+    font-size: 120%;
+}
+
+[data-content="free"],
+[data-content="regular_support"],
+[data-content="basic"]
+{
+    font-weight: normal;
+    background-color: LemonChiffon;
+    color: DarkGray;
+}
+
+[data-content="gold"] {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: Crimson;
+    background-color: LemonChiffon;
+}
+
+[data-key="custom_data.support_plan"] {
+    background-color: LemonChiffon;
+    border-right: 10px solid Red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+[data-key="custom_data.service_level"] {
+    background-color: LemonChiffon;
+    border-right: 10px solid Green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+[data-key="custom_data.support_package"] {
+    background-color: LemonChiffon;
+    border-right: 10px solid RoyalBlue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.profile-sidebar-section__current-profile > div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Qualification*/
+.profile-sidebar-section__current-profile 
+> div:first-child > 
+div:nth-child(3) {
+    order: 11
+}
+
+/*Last Viewed*/
+.profile-sidebar-section__current-profile 
+> div:first-child > 
+div:nth-child(4) {
+    order: 10
+}
+
+/*Latest Conv.*/
+.profile-sidebar-section__current-profile 
+> div:first-child > 
+div:nth-child(6) {
+    order: 3
+}
+
+
+/*Notes*/
+.profile-sidebar-section__current-profile 
+> div:first-child > 
+div:nth-child(7) {
+    order: 2
+}
+
+/*Details*/
+.profile-sidebar-section__current-profile 
+> div:first-child > 
+div:nth-child(8) {
+    order: 1
+}
+
+/*Tags*/
+.profile-sidebar-section__current-profile 
+> div:first-child > 
+div:nth-child(9) {
+    order: 8
+}
+
+/*Segments*/
+.profile-sidebar-section__current-profile 
+> div:first-child > 
+div:nth-child(10) {
+    order: 9
+}
